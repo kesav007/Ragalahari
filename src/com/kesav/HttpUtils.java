@@ -230,9 +230,41 @@ public class HttpUtils {
 //		downloadFiles.put("https://szcdn.ragalahari.com/nov2019/hd/teja-reddy-rudra-nagu-muhurat/", "teja-reddy-rudra-nagu-muhurat");
 //		downloadFiles.put("https://szcdn.ragalahari.com/april2016/photosessions/model-teja-reddy-photos/","model-teja-reddy-photos");
 //		downloadFiles.put("https://szcdn.ragalahari.com/may2011/starzone/tashu-kaushik-high-resolution-vykuntapali-pm/", "tashu-kaushik-high-resolution-vykuntapali-pm");
+//		downloadFiles.put("https://szcdn.ragalahari.com/aug2022/hd/pavani-bhimeneni-hi-life-aug2022/", "pavani-bhimeneni-hi-life-aug2022");
+//		downloadFiles.put("https://szcdn.ragalahari.com/june2022/photosessions/deepika-chourasia-black-denim-jaket-rps/", "deepika-chourasia-black-denim-jaket-rps");
+//		downloadFiles.put("https://szcdn.ragalahari.com/july2022/photosessions/ayesha-maroon-croptop-denim-shorts-rps/", "ayesha-maroon-croptop-denim-shorts-rps");
+//		downloadFiles.put("https://szcdn.ragalahari.com/feb2022/photosessions/aadhya-paruchuri-red-pallazoo-croptop-rps/", "aadhya-paruchuri-red-pallazoo-croptop-rps");
 		
+//		downloadFiles.put("https://szcdn.ragalahari.com/feb2022/photosessions/richa-kalra-black-top-denim-shorts-rps/", "richa-kalra-black-top-denim-shorts-rps");
+//		downloadFiles.put("https://szcdn.ragalahari.com/feb2016/starzone/aliya-singh-krasna-launch/", "aliya-singh-krasna-launch");
+//		downloadFiles.put("https://szcdn.ragalahari.com/sept2014/photosessions/akshayarao-in-black-top/", "akshayarao-in-black-top");
+//		downloadFiles.put("https://starzone.ragalahari.com/feb2015/photosessions/akshaya-rao-actress-ragalahari/", "akshaya-rao-actress-ragalahari");
+		
+//		downloadFiles.put("https://imgcdn.ragalahari.com/dec2014/photosessions/akshaya-rao-actress/", "akshaya-rao-actress");
+//		downloadFiles.put("https://imgcdn.ragalahari.com/dec2014/photosessions/akshayarao-in-blackdress/", "akshayarao-in-blackdress");
+//		downloadFiles.put("https://szcdn.ragalahari.com/dec2011/starzone/nakantu-okkaru-heroine-akshaya/", "nakantu-okkaru-heroine-akshaya");
+//		downloadFiles.put("https://szcdn.ragalahari.com/dec2022/hd/garima-sing-pvr-arts-movie-launch/", "garima-sing-pvr-arts-movie-launch");
+//		downloadFiles.put("https://szcdn.ragalahari.com/dec2022/hd/anchor-indu-love-you-ram-teaser-launch/", "anchor-indu-love-you-ram-teaser-launch");
+//		downloadFiles.put("https://szcdn.ragalahari.com/nov2020/photosessions/anchor-indu-gray-griller-knit-dress-rps/", "anchor-indu-gray-griller-knit-dress-rps");
+//		downloadFiles.put("https://szcdn.ragalahari.com/oct2013/starzone/pallavisreshta-okahindu-okamuslim/", "pallavisreshta-okahindu-okamuslim");
+//		downloadFiles.put("https://szcdn.ragalahari.com/june2016/starzone/sirisha-photo-gallery/", "sirisha-photo-gallery");
+//		downloadFiles.put("https://starzone.ragalahari.com/december2008gallery/sindhuri5/", "sindhuri5");
+//		downloadFiles.put("https://imgcdn.ragalahari.com/july2014/photosessions/telugu-tv-actress-shiny/", "telugu-tv-actress-shiny");
+//		downloadFiles.put("https://starzone.ragalahari.com/aug2015/photosessions/smily/", "smily");
+//		downloadFiles.put("https://imgcdn.ragalahari.com/mar2014/photosessions/indian-model-smily-glam-shoot/", "indian-model-smily-glam-shoott");
+//		downloadFiles.put("https://szcdn.ragalahari.com/jan2013/hd/smily-ragalahari-hd-portfolio/", "smily-ragalahari-hd-portfolio");
+//		downloadFiles.put("https://szcdn.ragalahari.com/dec2012/photosessions/model-smily/", "model-smily");
+		
+		downloadFiles.put("https://szcdn.ragalahari.com/july2013/starzone/sneha-thakur-spicy-pics/", "sneha-thakur-spicy-pics");
+		
+		downloadFiles.put("https://szcdn.ragalahari.com/nov2015/hd/siri-sri-ee-cinema-superhit-guarantee/", "siri-sri-ee-cinema-superhit-guarantee");
+		downloadFiles.put("https://szcdn.ragalahari.com/feb2012/starzone/sree-siri-traditional-gallery/", "sree-siri-traditional-gallery");
+		downloadFiles.put("https://szcdn.ragalahari.com/nov2014/starzone/siri-chakkiligintha-audio/", "siri-chakkiligintha-audio");
+		downloadFiles.put("https://szcdn1.ragalahari.com/nov2013/starzone/sirisri-broker2-on-the-sets/", "sirisri-broker2-on-the-sets");
+		downloadFiles.put("https://szcdn.ragalahari.com/feb2012/starzone/sree-siri-photogallery/", "sree-siri-photogallery");
+		downloadFiles.put("https://szcdn.ragalahari.com/july2011/starzone/sree-siri-high-resolution/", "sree-siri-high-resolution");
 		for (String key : downloadFiles.keySet()) {
-			File file = new File("c:/wallpapers/teja/" + downloadFiles.get(key));
+			File file = new File("c:/wallpapers/priya/" + downloadFiles.get(key));
 			if (!file.exists()) {
 				file.mkdirs();
 			}
