@@ -1359,18 +1359,45 @@ public class HttpUtils {
 //		downloadFiles.put("https://imgcdn.ragalahari.com/mar2015/starzone/chamundi-bluemoon/", "chamundi-bluemoon,20");
 //		downloadFiles.put("https://szcdn.ragalahari.com/june2014/photosessions/actress-chamundi-portfolio/", "actress-chamundi-portfolio,124");
 //		downloadFiles.put("https://imgcdn.ragalahari.com/jan2015/starzone/heroine-in-saree/", "heroine-in-saree,107");
-		downloadFiles.put("https://szcdn.ragalahari.com/july2016/starzone/telugu-actress-eesha/", "telugu-actress-eesha,228");
+//		downloadFiles.put("https://szcdn.ragalahari.com/july2016/starzone/telugu-actress-eesha/", "telugu-actress-eesha,228");
+//		downloadFiles.put("https://szcdn.ragalahari.com/july2013/starzone/sneha-thakur-spicy-pics/", "sneha-thakur-spicy-pics");
+		
+//		downloadFiles.put("https://szcdn.ragalahari.com/nov2015/hd/siri-sri-ee-cinema-superhit-guarantee/", "siri-sri-ee-cinema-superhit-guarantee");
+//		downloadFiles.put("https://szcdn.ragalahari.com/feb2012/starzone/sree-siri-traditional-gallery/", "sree-siri-traditional-gallery");
+//		downloadFiles.put("https://szcdn.ragalahari.com/nov2014/starzone/siri-chakkiligintha-audio/", "siri-chakkiligintha-audio");
+//		downloadFiles.put("https://szcdn1.ragalahari.com/nov2013/starzone/sirisri-broker2-on-the-sets/", "sirisri-broker2-on-the-sets");
+//		downloadFiles.put("https://szcdn.ragalahari.com/feb2012/starzone/sree-siri-photogallery/", "sree-siri-photogallery");
+//		downloadFiles.put("https://szcdn.ragalahari.com/july2011/starzone/sree-siri-high-resolution/", "sree-siri-high-resolution");
+//		https://szcdn.ragalahari.com/june2013/photosessions/indian-supermodel-seethal-sidge/indian-supermodel-seethal-sidge170t.jpg
+//		https://szcdn.ragalahari.com/june2013/photosessions/indian-supermodel-seethal-sidge/indian-supermodel-seethal-sidge1, 7055.jpg
+
+//		downloadFiles.put("https://szcdn.ragalahari.com/june2013/photosessions/indian-supermodel-seethal-sidge/", "indian-supermodel-seethal-sidge1, 70");
+//		downloadFiles.put("https://szcdn.ragalahari.com/june2013/photosessions/indian-supermodel-seethal-sidge/", "indian-supermodel-seethal-sidge,170");
+//		downloadFiles.put("https://szcdn.ragalahari.com/april2013/photosessions/vasundhara-ragalahari-shoot/", "vasundhara-ragalahari-shoot,51");
+//		downloadFiles.put("https://szcdn.ragalahari.com/nov2022/hd/gehna-sippy-gaalodu-pre-release-event/", "gehna-sippy-gaalodu-pre-release-event,49");
+//		downloadFiles.put("https://szcdn.ragalahari.com/dec2018/posters/kalpika-ganesh-my-dear-marthandam-pm/", "kalpika-ganesh-my-dear-marthandam-pm,75");
+//		downloadFiles.put("https://szcdn.ragalahari.com/dec2018/posters/kalpika-pplm-pre-release/", "kalpika-pplm-pre-release,38");
+//		downloadFiles.put("https://szcdn.ragalahari.com/july2013/starzone/telugu-heroine-neetu-agarwal/", "telugu-heroine-neetu-agarwal,57");
+//		downloadFiles.put("https://szcdn.ragalahari.com/dec2022/hd/ramya-raj-weekend-party-audio-launch/", "ramya-raj-weekend-party-audio-launch,32");		
+//		downloadFiles.put("https://szcdn.ragalahari.com/july2015/photosessions/hyderabad-film-actress-shalu-chourasiya/", "hyderabad-film-actress-shalu-chourasiya,171");
+//		downloadFiles.put("https://imgcdn.ragalahari.com/june2015/photosessions/telugu-movie-actress-shalu-chourasiya/", "telugu-movie-actress-shalu-chourasiya,129");
+//		downloadFiles.put("https://imgcdn.ragalahari.com/feb2015/hd/shalu-chourasiya-high-definition-wallpapers/", "shalu-chourasiya-high-definition-wallpapers,125");
+//		downloadFiles.put("https://imgcdn.ragalahari.com/july2015/photosessions/shaluchourasiya-ragalahari-studio-shoot/", "shaluchourasiya-ragalahari-studio-shoot,154");
+//		downloadFiles.put("https://szcdn.ragalahari.com/aug2022/photosessions/deepika-chaurasia-red-gray-lehenga-rps/", "deepika-chaurasia-red-gray-lehenga-rps,224");
+//		downloadFiles.put("https://szcdn.ragalahari.com/july2011/starzone/eesha-red-dress-ragalahari-ps/", "eesha-red-dress-ragalahari-ps,110");
+//		downloadFiles.put("https://szcdn.ragalahari.com/nov2019/hd/eesha-rebba-ragala-24gantallo-inter/", "eesha-rebba-ragala-24gantallo-inter,140");
+		downloadFiles.put("https://szcdn.ragalahari.com/dec2022/hd/priya-vadlamani-mukhachitran-interview/", "priya-vadlamani-mukhachitran-interview,70");
 		for (String key : downloadFiles.keySet()) {
 			String values[] = downloadFiles.get(key).split(",");
 			String folderName = values[0];
 			String maxPics = values[1];
 			System.out.println(folderName);
 			System.out.println(maxPics);
-			File file = new File("c:/wallpapers/kausha/" + folderName);
+			File file = new File("c:/wallpapers2/priya/" + folderName);
 			if (!file.exists()) {
 				file.mkdirs();
 			}
-			for (int i = 1; i < Integer.parseInt(maxPics); i++) {			
+			for (int i = 1; i <= Integer.parseInt(maxPics); i++) {			
 					String fileName = folderName + i + ".jpg";
 					String fromFile = key + fileName;
 					String toFile = file.toString() + "/" + fileName;	
