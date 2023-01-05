@@ -1386,14 +1386,103 @@ public class HttpUtils {
 //		downloadFiles.put("https://szcdn.ragalahari.com/aug2022/photosessions/deepika-chaurasia-red-gray-lehenga-rps/", "deepika-chaurasia-red-gray-lehenga-rps,224");
 //		downloadFiles.put("https://szcdn.ragalahari.com/july2011/starzone/eesha-red-dress-ragalahari-ps/", "eesha-red-dress-ragalahari-ps,110");
 //		downloadFiles.put("https://szcdn.ragalahari.com/nov2019/hd/eesha-rebba-ragala-24gantallo-inter/", "eesha-rebba-ragala-24gantallo-inter,140");
-		downloadFiles.put("https://szcdn.ragalahari.com/dec2022/hd/priya-vadlamani-mukhachitran-interview/", "priya-vadlamani-mukhachitran-interview,70");
+//		downloadFiles.put("https://szcdn.ragalahari.com/dec2022/hd/priya-vadlamani-mukhachitran-interview/", "priya-vadlamani-mukhachitran-interview,70");
+//		downloadFiles.put("https://szcdn.ragalahari.com/may2014/photosessions/chandamama-kathalu-heroine-isha-ranganath/","chandamama-kathalu-heroine-isha-ranganath,227");
+//		downloadFiles.put("https://szcdn.ragalahari.com/june2014/photosessions/kannada-actress-isha-ranganath/","kannada-actress-isha-ranganath,107");
+//		downloadFiles.put("https://szcdn.ragalahari.com/may2022/photosessions/anusha-parada-lily-green-lehenga-rps/", "anusha-parada-lily-green-lehenga-rps,150");
+//		downloadFiles.put("https://szcdn.ragalahari.com/aug2022/photosessions/deepika-chaurasia-red-gray-lehenga-rps/", "deepika-chaurasia-red-gray-lehenga-rps,224");
+//		downloadFiles.put("https://szcdn.ragalahari.com/july2022/photosessions/tanya-pradhan-yellow-lehenga-choli-rps/", "tanya-pradhan-yellow-lehenga-choli-rps,112");
+//		downloadFiles.put("https://szcdn.ragalahari.com/jan2017/photosessions/harshada-patil-hd-wallpapers/", "harshada-patil-hd-wallpapers,160");
+//		downloadFiles.put("https://szcdn.ragalahari.com/april2021/photosessions/aadita-surbhi-jain-red-sequin-bodycon-rps/", "aadita-surbhi-jain-red-sequin-bodycon-rps,26");
+//		downloadFiles.put("https://szcdn.ragalahari.com/oct2019/hd/saritha-musuku-sanjana-anne-bday2019/", "saritha-musuku-sanjana-anne-bday2019,33");
+//		downloadFiles.put("https://szcdn.ragalahari.com/may2019/hd/saritha-musuku-miss-mrs-india-asia-auditions/", "saritha-musuku-miss-mrs-india-asia-auditions,69");
+//		downloadFiles.put("https://szcdn.ragalahari.com/may2019/posters/saritha-musuku-burrakatha-teaser/", "saritha-musuku-burrakatha-teaser,18");
+//		downloadFiles.put("https://szcdn.ragalahari.com/june2018/starzone/saritha-red-dress/", "saritha-red-dress,11");
+//		downloadFiles.put("https://szcdn.ragalahari.com/june2018/starzone/saritha-red-dress/", "saritha-red-dress10,17");
+//		downloadFiles.put("https://szcdn.ragalahari.com/june2018/starzone/saritha-red-dress/", "saritha-red-dress,11");
+//		downloadFiles.put("https://szcdn.ragalahari.com/sept2015/starzone/saritha-club-republic/", "saritha-club-republic,55");
+//		downloadFiles.put("https://imgcdn.ragalahari.com/feb2015/starzone/saritha/", "saritha,29");
+//		downloadFiles.put("https://imgcdn.ragalahari.com/dec2014/starzone/saritha/", "saritha,17");
+//		downloadFiles.put("https://imgcdn.ragalahari.com/june2015/starzone/saritha/", "saritha,11");
+//		downloadFiles.put("https://szcdn.ragalahari.com/april2021/photosessions/aadita-surbhi-jain-red-sequin-bodycon-rps/", "aadita-surbhi-jain-red-sequin-bodycon-rps,26");
+//		downloadFiles.put("https://img.ragalahari.com/feb2010/starzone/shehatwo1/", "shehatwo1,93");
+//		downloadFiles.put("https://starzone.ragalahari.com/oct2010/starzone/sneha-spicy-gallery/", "sneha-spicy-gallery,37");
+//		downloadFiles.put("https://szcdn.ragalahari.com/dec2022/hd/ankita-saha-rajayogam-success-meet/", "ankita-saha-rajayogam-success-meet,56");
+//		downloadFiles.put("https://szcdn.ragalahari.com/nov2022/hd/ankita-saha-rajayogam-teaser-launch/", "ankita-saha-rajayogam-teaser-launch,88");
+//		downloadFiles.put("https://szcdn.ragalahari.com/dec2022/hd/aparna-reddy-sutraa-exhibition-dec2022/", "aparna-reddy-sutraa-exhibition-dec2022,22");
+		downloadFiles.put("https://szcdn.ragalahari.com/may2022/hd/shyamala-vikram-pre-release-event/", "shyamala-vikram-pre-release-event,37");
+		downloadFiles.put("https://szcdn.ragalahari.com/nov2022/hd/shyamala-thaggedele-pre-release-event/", "shyamala-thaggedele-pre-release-event,71");
+		downloadFiles.put("https://szcdn.ragalahari.com/july2022/hd/shyamala-ladki-pre-release/", "shyamala-ladki-pre-release,50");
+		downloadFiles.put("https://szcdn.ragalahari.com/jan2022/hd/shyamala-rowdy-boys-musical-night/", "shyamala-rowdy-boys-musical-night,48");
+		downloadFiles.put("https://szcdn.ragalahari.com/oct2021/hd/shyamala-manchirojulochaie-pre-release/", "shyamala-manchirojulochaie-pre-release,70");
+		downloadFiles.put("https://szcdn.ragalahari.com/sep2021/hd/shyamala-love-story-success-meet/", "shyamala-love-story-success-meet,12");
+		downloadFiles.put("https://szcdn.ragalahari.com/sep2021/hd/shyamala-gully-rowdy-pre-release/", "shyamala-gully-rowdy-pre-release,102");
+		downloadFiles.put("https://szcdn.ragalahari.com/sep2021/hd/shyamala-maestro-pre-release-event/", "shyamala-maestro-pre-release-event,65");
+		downloadFiles.put("https://szcdn.ragalahari.com/sep2021/hd/shyamala-thalaivi-pre-release-event/", "shyamala-thalaivi-pre-release-event,56");
+		downloadFiles.put("https://szcdn.ragalahari.com/aug2021/hd/shyamala-house-arrest-pre-release/", "shyamala-house-arrest-pre-release,58");
+		downloadFiles.put("https://szcdn.ragalahari.com/april2021/hd/shyamala-ishq-pre-release-event/", "shyamala-ishq-pre-release-event,70");
+		downloadFiles.put("https://szcdn.ragalahari.com/april2021/hd/shyamala-major-press-meet/", "shyamala-major-press-meet,24");
+		downloadFiles.put("https://szcdn.ragalahari.com/april2021/hd/shyamala-tuck-jagadish-press-meet/", "shyamala-tuck-jagadish-press-meet,63");
+		downloadFiles.put("https://szcdn.ragalahari.com/mar2021/hd/shyamala-sulthan-pre-release/", "shyamala-sulthan-pre-release,134");
+		downloadFiles.put("https://szcdn.ragalahari.com/mar2021/hd/shyamala-ram-charan-birthday2021/", "shyamala-ram-charan-birthday2021,28");
+		downloadFiles.put("https://szcdn.ragalahari.com/mar2021/hd/syamala-thellavarithe-guruvaram-pre-release/", "syamala-thellavarithe-guruvaram-pre-release,50");
+		downloadFiles.put("https://szcdn.ragalahari.com/mar2021/hd/shyamala-aranya-pre-release-event/", "shyamala-aranya-pre-release-event,31");
+		downloadFiles.put("https://szcdn.ragalahari.com/mar2021/hd/shyamala-mosagallu-pre-release/", "shyamala-mosagallu-pre-release,48");
+		downloadFiles.put("https://szcdn.ragalahari.com/mar2021/hd/shyamala-sashi-prerelease-event/", "shyamala-sashi-prerelease-event,48");
+		downloadFiles.put("https://szcdn.ragalahari.com/mar2021/starzone/shyamala-sreekaram-pre-release/", "shyamala-sreekaram-pre-release,47");
+		downloadFiles.put("https://szcdn.ragalahari.com/mar2021/hd/shyamala-gaali-sampath-pre-release/", "shyamala-gaali-sampath-pre-release,49");
+		downloadFiles.put("https://szcdn.ragalahari.com/mar2021/hd/shyamala-shadi-mubharak-pre-release/", "shyamala-shadi-mubharak-pre-release,53");
+		downloadFiles.put("https://szcdn.ragalahari.com/feb2021/hd/shyamala-roberrt-pre-release-event/", "shyamala-roberrt-pre-release-event,54");
+		downloadFiles.put("https://szcdn.ragalahari.com/feb2021/hd/shyamala-black-white-choffon-saree/", "shyamala-black-white-choffon-saree,33");
+		downloadFiles.put("https://szcdn.ragalahari.com/feb2021/hd/shyamala-teal-blue-slit-dress/", "shyamala-teal-blue-slit-dress,36");
+		downloadFiles.put("https://szcdn.ragalahari.com/feb2021/hd/shyamala-uppena-success-meet-rajahmundry/", "shyamala-uppena-success-meet-rajahmundry,41");
+		downloadFiles.put("https://szcdn.ragalahari.com/feb2021/hd/shyamala-kapatadhaari-pre-release/", "shyamala-kapatadhaari-pre-release,48");
+		downloadFiles.put("https://szcdn.ragalahari.com/feb2021/hd/shyamala-30-rojullo-thanks-meet/", "shyamala-30-rojullo-thanks-meet,92");
+//		downloadFiles.put("https://szcdn.ragalahari.com/feb2021/hd/syamala-zombie-reddy-pre-release/", "syamala-zombie-reddy-pre-release,85");
+		downloadFiles.put("https://szcdn.ragalahari.com/jan2021/hd/shyamala-bangaru-bullodu-pre-release/", "shyamala-bangaru-bullodu-pre-release,89");
+		downloadFiles.put("https://szcdn.ragalahari.com/jan2021/hd/shyamala-krack-trailer-launch/", "shyamala-krack-trailer-launch,64");
+		downloadFiles.put("https://szcdn.ragalahari.com/dec2020/hd/shyamala-red-trailer-launch/", "shyamala-red-trailer-launch,44");
+		downloadFiles.put("https://szcdn.ragalahari.com/oct2020/hd/shyamala-question-mark-song-launch/", "shyamala-question-mark-song-launch,78");
+		downloadFiles.put("https://szcdn.ragalahari.com/nov2019/hd/syamala-rvrg-prerelease1/", "syamala-rvrg-prerelease,86");
+		downloadFiles.put("https://szcdn.ragalahari.com/sep2019/starzone/shyamala-gangleader-pre-release/", "shyamala-gangleader-pre-release,78");
+		downloadFiles.put("https://szcdn.ragalahari.com/aug2019/hd/shyamala-manmadhudu2-prerelease/", "shyamala-manmadhudu2-prerelease,40");
+		downloadFiles.put("https://szcdn.ragalahari.com/june2019/hd/anchor-shymala-rajdoot-pre-release/", "anchor-shymala-rajdoot-pre-release,76");
+		downloadFiles.put("https://szcdn.ragalahari.com/mar2019/posters/shyamala-suryakantham-pre/", "shyamala-suryakantham-pre,83");
+		downloadFiles.put("https://szcdn.ragalahari.com/dec2018/hd/shyamala-bullithera-awards-2018/", "shyamala-bullithera-awards-2018,9");
+		downloadFiles.put("https://szcdn.ragalahari.com/dec2018/posters/syamala-next-enti-pre-release/", "syamala-next-enti-pre-release,50");
+		downloadFiles.put("https://szcdn.ragalahari.com/dec2018/starzone/shyamala-kavacham-audio-launch/", "shyamala-kavacham-audio-launch,14");
+		downloadFiles.put("https://szcdn.ragalahari.com/nov2018/starzone/shyamla-rangu-prerelease/", "shyamla-rangu-prerelease,21");
+		downloadFiles.put("https://szcdn.ragalahari.com/nov2018/posters/shyamala-blue-saree-designer-blouse/", "shyamala-blue-saree-designer-blouse,64");
+		downloadFiles.put("https://szcdn.ragalahari.com/oct2018/starzone/anchorshyamala-aravindasametha-sm/", "anchorshyamala-aravindasametha-sm,44");
+//		downloadFiles.put("https://szcdn.ragalahari.com/sep2018/starzone/shyamala/", "shyamala1007");
+		downloadFiles.put("https://szcdn.ragalahari.com/may2018/hd/shyamala-naa-peru-surya-thanks-meet/", "shyamala-naa-peru-surya-thanks-meet,15");
+		downloadFiles.put("https://szcdn.ragalahari.com/april2018/hd/anchor-syamala-in-chudidar/", "anchor-syamala-in-chudidar,69");
+		downloadFiles.put("https://szcdn.ragalahari.com/oct2017/starzone/anchor-shyamala-next-nuvve-audio/", "anchor-shyamala-next-nuvve-audio,56");
+		downloadFiles.put("https://szcdn.ragalahari.com/nov2016/hd/shyamala-red-saree/", "shyamala-red-saree,81");
+		downloadFiles.put("https://szcdn.ragalahari.com/sep2016/posters/shyamala-pink-posters/", "shyamala-pink-posters,69");
+		downloadFiles.put("https://szcdn.ragalahari.com/sep2016/hd/shyamala-ragalahari-hd-stills/", "shyamala-ragalahari-hd-stills,58");
+		downloadFiles.put("https://szcdn.ragalahari.com/aug2016/starzone/syamala-in-gagra-choli/", "syamala-in-gagra-choli,55");
+//		downloadFiles.put("https://szcdn.ragalahari.com/aug2016/starzone/shyamala-prajadairy/", "shyamala-prajadairy1025");
+		downloadFiles.put("https://szcdn.ragalahari.com/june2016/starzone/syamala-jakkanna-audio-pics/", "syamala-jakkanna-audio-pics,38");
+		downloadFiles.put("https://szcdn.ragalahari.com/jan2016/starzone/shyamala-in-pink-long-frock/", "shyamala-in-pink-long-frock,82");
+		downloadFiles.put("https://szcdn.ragalahari.com/sept2015/starzone/shyamala-tease-18sep/", "shyamala-tease-18sep,35");
+		downloadFiles.put("https://imgcdn.ragalahari.com/june2015/starzone/anchor-shyamala/", "anchor-shyamala,34");
+		downloadFiles.put("https://imgcdn.ragalahari.com/feb2015/starzone/syamala-ramleela-audio/", "syamala-ramleela-audio,35");
+		downloadFiles.put("https://imgcdn.ragalahari.com/jan2015/starzone/shyamala/", "shyamala,39");
+		downloadFiles.put("https://szcdn.ragalahari.com/nov2014/starzone/anchor-shyamala/", "anchor-shyamala,11");
+		downloadFiles.put("https://szcdn.ragalahari.com/nov2014/starzone/shyamala-chakkiligintha-audio/", "shyamala-chakkiligintha-audio,36");
+		downloadFiles.put("https://szcdn.ragalahari.com/may2013/starzone/telugu-tv-anchor-syamala-in-saree/", "telugu-tv-anchor-syamala-in-saree,25");
+		downloadFiles.put("https://szcdn.ragalahari.com/nov2012/starzone/shyamala-desire-curtain-raiser/", "shyamala-desire-curtain-raiser,50");
 		for (String key : downloadFiles.keySet()) {
 			String values[] = downloadFiles.get(key).split(",");
+			if(values.length  >  1) {
+			System.out.println("Length " + values.length);
 			String folderName = values[0];
-			String maxPics = values[1];
 			System.out.println(folderName);
+			
+			String maxPics = values[1];
 			System.out.println(maxPics);
-			File file = new File("c:/wallpapers2/priya/" + folderName);
+			File file = new File("c:/wallpapers2/shyamala/" + folderName);
 			if (!file.exists()) {
 				file.mkdirs();
 			}
@@ -1411,6 +1500,7 @@ public class HttpUtils {
 						 e.printStackTrace();
 						continue;	
 					}
+				}
 			}
 		}
 		System.out.println("Completed !!!");		
